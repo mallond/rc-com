@@ -1,0 +1,25 @@
+{
+  "name": "web-component-essentials",
+  "version": "0.0.4",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack --mode production"
+  },
+  "directories": {
+    "src": "src"
+  },
+  "author": "Cory Rylan",
+  "license": "",
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {}
+}

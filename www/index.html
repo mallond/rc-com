@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Web Component Essentials</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>Example 14 Browser Support</h1>
+    <a href="/">Back to examples</a>
+  </header>
+
+  <main>
+    <x-dropdown>
+      Hello From Published Component
+    </x-dropdown>
+  </main>
+  <!-- Browsers that do not support Web Components APIs -->
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.0.0/webcomponents-bundle.js"></script>
+
+  <!-- Our Library compiled to ES5 For older ES5 Browsers -->
+  <!-- <script src="https://unpkg.com/web-component-essentials@0.0.4/dist/index.js"></script> -->
+
+  <!-- ES2015+ version of our library for evergreen browsers -->
+  <script type="module" src="https://unpkg.com/web-component-essentials@0.0.4/src/dropdown.js"></script>
+</body>
+
+</html>
