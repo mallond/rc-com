@@ -7,13 +7,18 @@ template.innerHTML = `
       width: 150px;
     }
   </style>
+  <div>  <img src="rc.jpeg" id="rcimage"/></div>
+
+      
   <button></button>
-  <div>
+  <div>This is a Div we want to inspect
     <slot></slot>
   </div>
+  
 `;
 
-export class XDropdown extends HTMLElement {
+
+export class RCCOM extends HTMLElement {
   static get observedAttributes() {
     return ['title'];
   }
@@ -29,7 +34,7 @@ export class XDropdown extends HTMLElement {
 
   constructor() {
     super();
-    this._title = 'dropdown';
+    this._title = 'rccom';
     this.show = false;
 
     this.attachShadow({ mode: 'open' });
@@ -54,6 +59,8 @@ export class XDropdown extends HTMLElement {
     this.contentElement.style.display = this.show ? 'block' : 'none';
     this.dispatchEvent(new CustomEvent('show', { detail: this.show }));
   }
+
+
 }
 
-customElements.define('x-dropdown', XDropdown);
+customElements.define('x-rccom', RCCOM);

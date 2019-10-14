@@ -5,7 +5,7 @@ Remote Control W3C Web Component - The Shadow in the DOM
 
 > This POC is for educational purposes, although the code can be used, the reason for this repos is to demonstrate, facilitate, a learning process and discovery.
 
-> Using Githubs module support
+> Using Github's module support
 
 ![download](https://user-images.githubusercontent.com/993459/66702401-f0dcda80-eccc-11e9-932a-4cf3c4afd136.jpeg)
 
