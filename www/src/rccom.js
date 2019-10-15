@@ -91,12 +91,7 @@ export class RCCOM extends HTMLElement {
     };
     console.log('Loading PubNub')
     loadPubnub()
-
-
-
   }
-
-
 }
 
 customElements.define('x-rccom', RCCOM);

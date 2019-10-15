@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c22b2a7-12aa-4dc5-b2af-f039b7ab2418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/src/pawndown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/pawnup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/pawned.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/pawned2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/src/rccom.bak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/src/rccom.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/src/rccom.js" afterDir="false" />
-    </list>
+    <list default="true" id="6c22b2a7-12aa-4dc5-b2af-f039b7ab2418" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/src/rccom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="540">
+              <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -202,18 +194,17 @@
       <updated>1570888608428</updated>
       <workItem from="1570888609892" duration="1748000" />
       <workItem from="1570891386247" duration="2215000" />
-      <workItem from="1570973483580" duration="16460000" />
+      <workItem from="1570973483580" duration="16879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30610000" />
+    <option name="totallyTimeSpent" value="31029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="1283" height="757" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.36666667" visible="true" weight="0.10776545" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.36666667" visible="true" weight="0.10776545" />
       <window_info id="Structure" order="1" sideWeight="0.6333333" side_tool="true" weight="0.13165538" />
       <window_info id="DB Browser" order="2" weight="0.32884312" />
       <window_info id="Project Explorer" order="3" weight="0.32884312" />
@@ -230,7 +221,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.23052959" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.95327103" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.95327103" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -416,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/src/rccom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state relative-caret-position="540">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
