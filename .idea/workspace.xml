@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c22b2a7-12aa-4dc5-b2af-f039b7ab2418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/pawndown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/pawnup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/src/rccom.bak.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/pawndown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/src/pawnup.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/justgage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/raphael-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pawned.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pawned2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/src/rccom.bak.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/src/rccom.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/src/rccom.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/src/rccom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+            <state relative-caret-position="420">
+              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -44,20 +41,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pawned.jpeg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pawned2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
+        <entry file="file://$PROJECT_DIR$/www/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -112,8 +108,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-728" />
-    <option name="y" value="1463" />
+    <option name="x" value="81" />
+    <option name="y" value="23" />
     <option name="width" value="1283" />
     <option name="height" value="757" />
   </component>
@@ -206,15 +202,15 @@
       <updated>1570888608428</updated>
       <workItem from="1570888609892" duration="1748000" />
       <workItem from="1570891386247" duration="2215000" />
-      <workItem from="1570973483580" duration="14564000" />
+      <workItem from="1570973483580" duration="16460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28714000" />
+    <option name="totallyTimeSpent" value="30610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-728" y="1463" width="1283" height="757" extended-state="0" />
+    <frame x="81" y="23" width="1283" height="757" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.36666667" visible="true" weight="0.10776545" />
@@ -232,7 +228,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.23052959" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.23052959" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.95327103" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -242,10 +238,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.36666667" visible="true" weight="0.10776545" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.36666667" weight="0.10776545" />
       <window_info id="Structure" order="1" sideWeight="0.6333333" side_tool="true" weight="0.13165538" />
-      <window_info id="DB Browser" order="2" weight="0.32913843" />
-      <window_info id="Project Explorer" order="3" weight="0.32913843" />
+      <window_info id="DB Browser" order="2" weight="0.32884312" />
+      <window_info id="Project Explorer" order="3" weight="0.32884312" />
       <window_info id="Job Explorer" order="4" sideWeight="0.73333335" weight="0.32884312" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,7 +255,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.23052959" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.95327103" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.95327103" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -361,13 +357,6 @@
     <entry file="file://$PROJECT_DIR$/www/rc.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/tada.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -411,17 +400,24 @@
     <entry file="file://$PROJECT_DIR$/www/pawndown.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/src/rccom.js">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        <state relative-caret-position="270">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/src/rccom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>

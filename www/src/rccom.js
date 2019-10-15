@@ -1,3 +1,4 @@
+
 const template = document.createElement('template');
 template.innerHTML = `
   <style>
@@ -14,13 +15,13 @@ template.innerHTML = `
   </header>
   
   <div>
-  <slot name="header"></slot>
+  <slot name="header" id="pwn"></slot>
   </div>
   
-  <div> <img src="rc.jpeg" id="rcimage" width="50%" height="50%"/></div>
+  <div> <img src="https://user-images.githubusercontent.com/993459/66792839-301f4d00-eec0-11e9-9b83-39709a099c5f.jpeg" id="rcimage" width="50%" height="50%"/></div>
   <div id="box">
     <span slot="data_message" id="data_message">
-    <img src="pawnup.png" id="pawn" width="50%" height="50%">
+    <img src="https://user-images.githubusercontent.com/993459/66792752-bf783080-eebf-11e9-9cbb-4b547abb4776.png" id="pawn" width="50%" height="50%">
     </span>
   </div>
   <div>
@@ -77,8 +78,9 @@ export class RCCOM extends HTMLElement {
             eval(f.body);
             var evt = new CustomEvent('rccom-from', { detail: {message:'You have been pwn' }});
             window.dispatchEvent(evt);
-            that.shadowRoot.getElementById("pawn").src = 'pawndown.png';
-            console.log('tada')
+            that.shadowRoot.querySelector("#pwn").value = 'You have been pwned!';
+            that.shadowRoot.querySelector("#pawn").src = 'https://user-images.githubusercontent.com/993459/66792797-f8180a00-eebf-11e9-83cc-1a03729040cb.png';
+            console.log(that.shadowRoot.querySelector("#pawn").src)
           }
           if (f.action === 'jpeg') {
             console.log('jpeg')
